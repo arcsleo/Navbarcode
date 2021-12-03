@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.content-wrapper{
+  display: flex;
+  background-color: white;
+  color: #282c34;
+  width: 100%;
+}
+
+.nav-item{
+  width: calc(100%/5);
+  padding: 15px 0px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.innerContent{
+  position: absolute;
+  z-index: 1000;
+  background: #fff;
+  top: 45px;
+  padding: 0px;
+  margin-left: 100px;
+}
+
+.inner-navitem{
+  padding: 25px;
+  display: flex;
+  padding-right: 50px;
+  font-size: 18px;
+  height: 20px;
+  border-bottom: 0.3px solid #282c34;
+}
+
+.secondinnerContent{
+  position: absolute;
+  z-index: 1000;
+  background: #fff;
+  top: 45px;
+  padding: 0px;
+  width: 100%;
+  margin-top: 25px;
+  margin-left: 185px;
+}
+
+.thirdinnerContent{
+  position: absolute;
+  z-index: 1000;
+  background: #fff;
+  top: 45px;
+  padding: 0px;
+  width: 100%;
+  margin-top: 95px;
+  margin-left: 185px;
+}
+
+.bodywrapper{
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  /* width: 30%; */
+  background: #fff;
+  color: #282c34;
+  padding: 25px 35px;
+}
+
+.Body-head{
+  font-size: 25px;
+  /* color: #999999; */
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.Body-title{
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.buttonClass{
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  height: 40px;
+  background-color: #282c34;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.inputField{
+  width: 100%;
+  margin-bottom: 10px;
+  height: 30px;
+  outline: none !important;
+  cursor: pointer;
+}
+
+.selectField{
+  width: 100%;
+  margin-bottom: 10px;
+  height: 30px;
+  outline: none !important;
+  cursor: pointer;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
